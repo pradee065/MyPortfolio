@@ -13,8 +13,10 @@ function createLinks(){
 function NavigationBar() {
   return (
     <div id="home">
-      <Navbar className="navigation_container" expand="md"> 
-        <Navbar.Brand href="#home" style={{marginLeft: "1rem"}}>Pradeep</Navbar.Brand>
+      <Navbar className="navigation_container" 
+      style={{zIndex: '2', position: 'fixed', top: 0, width: '100%'}}
+      expand="md"> 
+        <Navbar.Brand href="#home" style={{marginLeft: "1rem"}}>Pradeep B G</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse style={{justifyContent: 'flex-end', marginRight: '1rem', border: '0px'}}>
             <Nav className='links' style={{margin: '0 1rem'}}>

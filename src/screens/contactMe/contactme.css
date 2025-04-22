@@ -1,0 +1,20 @@
+#contact {
+    background: #7bc3d1;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+#contact .social i.fa {
+    font-size: 30px;
+    padding: 4px 5px;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+#contact .social ul {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+}
