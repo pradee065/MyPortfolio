@@ -23,18 +23,18 @@ function Portfolio() {
       >
         <Modal.Header>
           <Modal.Title id="contained-modal-title-vcenter">
-            {data.desc}
+            {/* {data.desc} */}
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>{data.summary}</p>
+          {/* <p>{data.summary}</p> */}
           <Image src={data.image} style={{ width: '200px' }} />
         </Modal.Body>
          {/* make sure to add rel="noreferrer" for netlify upload */}
-          <a id="portfolio__modal__link" href={data.link} target="_blank" rel="noreferrer">Go to site</a>
+          {/* <a id="portfolio__modal__link" href={data.link} target="_blank" rel="noreferrer">Go to site</a> */}
         <Modal.Footer>
-          <div>Technologies used: </div>
-          <p style={{ fontSize: '0.7rem', marginRight: 'auto' }}>{data.tech}</p>
+          {/* <div>Technologies used: </div>
+          <p style={{ fontSize: '0.7rem', marginRight: 'auto' }}>{data.tech}</p> */}
           <Button onClick={() => setModalShow(false)}>Close</Button>
         </Modal.Footer>
       </Modal>

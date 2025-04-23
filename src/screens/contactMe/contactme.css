@@ -18,3 +18,8 @@
     gap: 60px;
     list-style: none;
 }
+@media only screen and (max-width: 600px){
+    #contact .social ul {
+        gap: 15px;
+    }
+}
